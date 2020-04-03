@@ -7,9 +7,7 @@ class Main
   include Ch1
 
   def main
-    puts 'Chapter 1 solutions'
-    puts '--------------------------'
-    puts "Hours in a year: #{hours_in_year}"
+    print_ch1_solutions
   end
 end
 
