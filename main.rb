@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require './ch1/ch1'
+require_relative 'solutions/ch1'
 
 # Main driver for all exercises
 class Main

@@ -2,6 +2,8 @@
 
 # Functions for Chapter 1
 module Ch1
+  private
+
   def hours_in_year
     24 * 365
   end
@@ -25,6 +27,8 @@ module Ch1
   def age_from_seconds(seconds)
     seconds / (3600 * 24 * 365)
   end
+
+  public
 
   def print_ch1_solutions
     puts 'Chapter 1 solutions'
